@@ -1,0 +1,12 @@
+s = input()
+count = 0
+dcount = 0
+for char in s :
+    if char.isupper():
+        count += 1
+    else:
+        dcount += 1
+if count > dcount:
+    print(s.upper())
+else:
+    print(s.lower())
